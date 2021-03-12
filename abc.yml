@@ -1,3 +1,4 @@
----
- - tasks: 
+- name: sample
+  hosts: all
+  tasks: 
       - command: "hostname"
